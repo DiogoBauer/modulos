@@ -1,4 +1,4 @@
-var mensagem = function (nome) {
-    return "Os cria do GitHub ta estorado!! Ass: " + nome;
+var mensagem = function (nome,sendmensagem) {
+    return sendmensagem + nome;
   }; 
   module.exports = mensagem; 
